@@ -37,6 +37,7 @@ public class Emp {
 	public void setDesignation(String designation) {
 		this.designation = designation;
 	}
+
 	@Override
 	public String toString() {
 		return "Emp [empid=" + empid + ", name=" + name + ", salary=" + salary + ", designation=" + designation + "]";
